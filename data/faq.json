@@ -1,0 +1,34 @@
+{
+  "greeting": {
+    "examples": ["hi", "hello", "hey", "good morning", "good evening"],
+    "response": "Hello! I'm the University Assistant. Ask me about admissions, courses, fees, contacts, or type 'bye' to end."
+  },
+  "admission_process": {
+    "examples": ["how do i apply", "admission process", "how to apply", "application procedure"],
+    "response": "You can apply online through the university portal. Fill the application form, upload documents, and pay the application fee."
+  },
+  "admission_deadline": {
+    "examples": ["when is the admission deadline", "last date to apply", "application deadline"],
+    "response": "The admission deadline for the next intake is August 15, 2025."
+  },
+  "courses_offered": {
+    "examples": ["what courses are offered", "courses", "degrees available", "programs offered"],
+    "response": "We offer B.Tech, M.Tech, MBA, and MCA programs across multiple departments."
+  },
+  "btech_duration": {
+    "examples": ["how long is btech", "btech duration", "duration of btech"],
+    "response": "The B.Tech program is 4 years (8 semesters)."
+  },
+  "fees": {
+    "examples": ["what are the fees", "tuition fee", "how much is the fee"],
+    "response": "The annual tuition fee for B.Tech is ₹1,00,000. Scholarships may be available."
+  },
+  "contact": {
+    "examples": ["how to contact", "contact", "office email", "phone number"],
+    "response": "You can reach the university office at contact@university.edu or call +91-01234-567890."
+  },
+  "bye": {
+    "examples": ["bye", "goodbye", "see you"],
+    "response": "Goodbye! If you need anything else, I’ll be here."
+  }
+}
