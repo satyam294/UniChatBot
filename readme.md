@@ -35,7 +35,7 @@ CampusConnect-DITU/
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/CampusConnect-DITU.git
+git clone https://github.com/satyam294/CampusConnect-DITU.git
 cd CampusConnect-DITU
 ```
 
@@ -111,13 +111,7 @@ Bot: Goodbye! It was nice talking to you. Have a great day ahead!
 - 🗣️ Enable **voice input/output** for accessibility.  
 - 🌏 Add **multi-language support** (e.g., English and Hindi).  
 
----
 
-## 👩‍💻 Team Members
-- **Member 1:** Satyam Chand  
-- **Member 2:** [Add Name Here]  
-- **Member 3:** [Add Name Here]  
-- **Member 4:** [Add Name Here]  
 
 ---
 
