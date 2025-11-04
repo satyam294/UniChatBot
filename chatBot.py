@@ -1,14 +1,11 @@
-# chatbot.py  (Recommended - uses nltk + fuzzywuzzy)
 import json
 import re
-import sys
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 
 try:
     import nltk
     from nltk.corpus import stopwords
-    from nltk.tokenize import word_tokenize
 except Exception:
     nltk = None
 
@@ -16,11 +13,11 @@ except Exception:
 with open("data/faq.json", "r", encoding="utf-8") as f:
     faq = json.load(f)
 
-# Build a flat list of candidate phrases mapped to intent keys
+# flat list of candidate phrases mapped to intent keys
 candidates = []
 intent_map = {}  # candidate phrase -> intent_key
 for intent_key, info in faq.items():
-    # include both the canonical intent_key and provided examples
+    #canonical intent_key and provided examples
     candidates.append(intent_key.replace("_", " "))
     intent_map[intent_key.replace("_", " ")] = intent_key
     for ex in info.get("examples", []):
@@ -44,7 +41,7 @@ def normalize(text):
         tokens = [t for t in tokens if t not in STOPWORDS]
     return " ".join(tokens)
 
-# Prepare normalized candidate list for faster matching
+# Prepare normalized candidate
 normalized_candidates = [normalize(c) for c in candidates]
 
 def find_best_intent(user_text, threshold=60):

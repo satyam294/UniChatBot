@@ -4,31 +4,162 @@
     "response": "Hello! I'm the University Assistant. Ask me about admissions, courses, fees, contacts, or type 'bye' to end."
   },
   "admission_process": {
-    "examples": ["how do i apply", "admission process", "how to apply", "application procedure"],
-    "response": "You can apply online through the university portal. Fill the application form, upload documents, and pay the application fee."
+    "examples": [
+      "how do I apply for admission",
+      "what is the admission process",
+      "how to get admission in ditu",
+      "steps for admission",
+      "what is the procedure for admission",
+      "how can I apply to ditu"
+    ],
+    "response": "To apply for admission at DITU, visit the official university admission portal and fill out the online application form. Submit the required documents and pay the application fee. The selection is based on merit and entrance examination performance where applicable."
   },
   "admission_deadline": {
     "examples": ["when is the admission deadline", "last date to apply", "application deadline"],
     "response": "The admission deadline for the next intake is August 15, 2025."
   },
+
+  "fees_structure": {
+    "examples": [
+      "what is the fee structure",
+      "how much is the tuition fee",
+      "fees for different courses",
+      "btech fee",
+      "mba fees",
+      "mca course fees",
+      "fee details for various programs"
+    ],
+    "response": "The fee structure varies by course. For example: B.Tech – approx ₹1,70,000 per year, MBA – ₹2,00,000 per year, MCA – ₹1,20,000 per year. For the most accurate and updated fee details, please visit the DITU official website's 'Fee Structure' section."
+  },
+
+  "course_duration": {
+    "examples": [
+      "duration of btech course",
+      "how long is the mba program",
+      "course duration for different programs",
+      "mca course duration",
+      "bca course length",
+      "how many years for btech"
+    ],
+    "response": "The course durations are as follows: B.Tech – 4 years, MBA – 2 years, MCA – 2 years, BCA – 3 years, M.Tech – 2 years. Some programs may include additional internship or project semesters."
+  },
+
   "courses_offered": {
-    "examples": ["what courses are offered", "courses", "degrees available", "programs offered"],
-    "response": "We offer B.Tech, M.Tech, MBA, and MCA programs across multiple departments."
+    "examples": [
+      "what courses are offered",
+      "list of programs in ditu",
+      "which courses are available",
+      "what are the undergraduate programs",
+      "what postgraduate courses are there",
+      "academic programs offered"
+    ],
+    "response": "DIT University offers a wide range of programs: \nUndergraduate – B.Tech, BCA, B.Arch, B.Des, BBA, B.Pharm. \nPostgraduate – M.Tech, MBA, MCA, M.Pharm, M.Arch. \nDoctoral – Ph.D. programs in multiple disciplines."
   },
-  "btech_duration": {
-    "examples": ["how long is btech", "btech duration", "duration of btech"],
-    "response": "The B.Tech program is 4 years (8 semesters)."
+
+  "eligibility_criteria": {
+    "examples": [
+      "eligibility for admission",
+      "minimum marks for admission",
+      "who can apply for btech",
+      "qualification required for mba",
+      "eligibility criteria for mca"
+    ],
+    "response": "Eligibility varies by program. For B.Tech, candidates must have passed 10+2 with Physics, Mathematics, and one optional subject (like Chemistry or CS). For MBA, a bachelor’s degree in any stream with at least 50% marks is required. Please refer to the university website for full details."
   },
-  "fees": {
-    "examples": ["what are the fees", "tuition fee", "how much is the fee"],
-    "response": "The annual tuition fee for B.Tech is ₹1,00,000. Scholarships may be available."
+
+  "campus_facilities": {
+    "examples": [
+      "what are the facilities in campus",
+      "what are features of the campus",
+      "does the campus have a gym",
+      "campus infrastructure",
+      "sports facilities available",
+      "what amenities are offered to students"
+    ],
+    "response": "DITU offers world-class facilities including modern classrooms, well-equipped labs, digital libraries, Wi-Fi-enabled campus, gymnasium, sports complex, hostels, cafeteria, and medical facilities. The campus promotes a holistic learning environment."
   },
-  "contact": {
-    "examples": ["how to contact", "contact", "office email", "phone number"],
-    "response": "You can reach the university office at contact@university.edu or call +91-01234-567890."
+
+  "campus_size": {
+    "examples": [
+      "how big is the campus",
+      "campus area",
+      "total campus size of ditu",
+      "how large is the university campus"
+    ],
+    "response": "DIT University has a beautiful and spacious campus spread across approximately 25 acres in Dehradun, surrounded by the scenic hills of Uttarakhand."
   },
+
+  "student_clubs": {
+    "examples": [
+      "what clubs are there",
+      "list of student clubs",
+      "are there any cultural clubs",
+      "technical societies in ditu",
+      "sports and arts clubs"
+    ],
+    "response": "DITU has a vibrant student community with several clubs and societies, such as the Coding Club, Robotics Club, Music and Dance Club, Drama Society, Sports Club, Literary Club, and Entrepreneurship Cell. These clubs encourage student engagement beyond academics."
+  },
+
+  "placement_opportunities": {
+    "examples": [
+      "placement record",
+      "does ditu provide placement assistance",
+      "average package in btech",
+      "companies visiting for placements",
+      "campus placement details"
+    ],
+    "response": "DITU has an excellent placement record with reputed companies like Infosys, TCS, Wipro, Deloitte, Amazon, and Accenture visiting the campus. The average package varies by course, typically ranging from ₹5 LPA to ₹12 LPA for top-performing students."
+  },
+
+  "contact_information": {
+    "examples": [
+      "contact details of ditu",
+      "how can i reach the university",
+      "university helpline number",
+      "email id for enquiries",
+      "admission office contact"
+    ],
+    "response": "You can contact DIT University at: \nPhone: +91-135-3000300 \nEmail: info@dituniversity.edu.in \nAddress: Mussoorie Diversion Road, Dehradun, Uttarakhand, India."
+  },
+
+  "hostel_facilities": {
+    "examples": [
+      "is hostel available",
+      "hostel fees and facilities",
+      "does ditu provide accommodation",
+      "hostel for girls and boys"
+    ],
+    "response": "Yes, DITU provides separate hostels for boys and girls with comfortable rooms, Wi-Fi, mess facilities, and 24×7 security. Hostel fees depend on room type and facilities chosen."
+  },
+
+  "scholarship_details": {
+    "examples": [
+      "are there any scholarships",
+      "how to apply for scholarship",
+      "scholarship for meritorious students",
+      "financial aid options"
+    ],
+    "response": "DITU offers scholarships based on academic merit, entrance exam performance, and special categories (like Uttarakhand domicile). Eligible students can apply during admission with relevant documents."
+  },
+
+  "library_facilities": {
+    "examples": [
+      "does ditu have a library",
+      "library resources",
+      "digital library access",
+      "study material available"
+    ],
+    "response": "DIT University has a well-stocked central library with thousands of books, journals, and research papers. It also provides access to online databases, e-books, and digital learning platforms for students and faculty."
+  },
+
   "bye": {
-    "examples": ["bye", "goodbye", "see you"],
-    "response": "Goodbye! If you need anything else, I’ll be here."
+    "examples": [
+      "bye",
+      "goodbye",
+      "exit",
+      "see you later",
+      "thank you"
+    ],
+    "response": "Goodbye! It was nice talking to you. Have a great day ahead!"
   }
 }
